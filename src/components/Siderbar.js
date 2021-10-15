@@ -12,7 +12,7 @@ const Siderbar = () => {
 			<div className="sidebar">
 				<Profile
 					username="HongGhi"
-					caption="hello HongGhi"
+					caption="hello nha"
 					urltext="switch"
 					size="big"
 					image={image}

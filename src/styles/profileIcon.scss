@@ -32,4 +32,14 @@
 			cursor: pointer;
 		}
 	}
+	&-medium {
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		border: 2px solid $background-white;
+		display: block;
+		&:hover {
+			cursor: pointer;
+		}
+	}
 }

@@ -8,10 +8,11 @@ const Navigation = () => {
 		<div className="navigation">
 			<div className="container">
 				<img className="logo" src={Logo} alt="instagram logo" />
-				<div class="search">
+				{/* <input className="search">
 					<img className="searchIcon" src="" alt="" />
 					<span className="searchText">Search</span>
-				</div>
+				</input> */}
+				<input className="search" placeholder="search" />
 				<Menu />
 			</div>
 		</div>

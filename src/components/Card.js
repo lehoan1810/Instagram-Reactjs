@@ -16,7 +16,7 @@ const Card = ({
 	return (
 		<div className="card">
 			<header>
-				<Profile size="small" storyBorder={storyBorder} />
+				<Profile size="medium" storyBorder={storyBorder} username="HongGhi" />
 				<CardButton className="cardButton" />
 			</header>
 			<img className="cardImage" src={image} alt="card content" />
